@@ -1,10 +1,7 @@
 import { imageUrls } from "../../assets/imgs/imageUrls";
-import Button from "./Button";
+import { appStrings } from "../../assets/text/appStrings";
 
 const Hero = () => {
-  const handleClick = () => {
-    console.log("Support button clicked");
-  };
   return (
       <div className="flex flex-row justify-end float-right">
         <div className="flex flex-col mt-14">
@@ -17,7 +14,7 @@ const Hero = () => {
             }
           </p>
           <div className="flex justify-end mt-16">
-            <Button copy="Support the campaign" onClick={handleClick} />
+            <button className="bg-white rounded-lg text-primary py-3 px-5 font-body">{appStrings.hero.button}</button>
           </div>
         </div>
         <img
