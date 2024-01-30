@@ -10,6 +10,9 @@ export default {
         header: ["Bebas Neue", "sans-serif"],
         body: ["PT Sans Narroo", "sans-serif"],
       },
+      colors: {
+        primary: '#102259'
+      }
     },
   },
   plugins: [],
