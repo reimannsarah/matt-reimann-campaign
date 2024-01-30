@@ -61,4 +61,7 @@ export const appStrings = {
         "Since the Commission offices are located in District 4, I would advocate that the Commission rotate its meeting location to each of the 4 districts throughout the year",
     },
   ],
+  footer: {
+    header: "Reimann for Portland\n District 4",
+  }
 };
