@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
 body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='2000' height='5000' preserveAspectRatio='none' viewBox='0 0 2000 5000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2499%26quot%3b)' fill='none'%3e%3crect width='2000' height='5000' x='0' y='0' fill='rgba(16%2c 34%2c 89%2c 1)'%3e%3c/rect%3e%3cpath d='M2000 0L1736.3600000000001 0L2000 1794.81z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1736.3600000000001 0L2000 1794.81L2000 2137.18L1060.7400000000002 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1060.74 0L2000 2137.18L2000 3678.91L910.32 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M910.3199999999999 0L2000 3678.91L2000 4478.74L525.6499999999999 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 5000L994 5000L0 3802.02z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 3802.02L994 5000L1044.15 5000L0 1777.54z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1777.54L1044.15 5000L1189.3400000000001 5000L0 994.99z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 994.9899999999998L1189.3400000000001 5000L1721.38 5000L0 654.7399999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2499'%3e%3crect width='2000' height='5000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
