@@ -10,7 +10,7 @@ const Hero = () => {
             style={{ whiteSpace: "pre-line" }}
           >
             {
-              "A fresh perspective\n from a lifelong\n Portlander"
+              appStrings.hero.slogan
             }
           </p>
           <div className="flex justify-end mt-16">
