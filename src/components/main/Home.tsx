@@ -1,6 +1,7 @@
 import Hero from "../sub/Hero";
 import Photo from "../sub/Photo";
-import DonationsInfo from "../sub/DonationsInfo";
+import Donations from "./Donations";
+import Platform from "./Platform";
 
 const Home = () => {
   return (
@@ -12,7 +13,10 @@ const Home = () => {
         <Photo />
       </div>
       <div className="absolute top-[1100px] left-1/2 transform -translate-x-1/2">
-        <DonationsInfo />
+        <Donations />
+      </div>
+      <div className="absolute top-[1700px] left-1/2 transform -translate-x-1/2">
+        <Platform />
       </div>
     </div>
   );
