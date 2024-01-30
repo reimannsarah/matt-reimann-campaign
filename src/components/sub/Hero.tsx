@@ -10,7 +10,7 @@ const Hero = () => {
             style={{ whiteSpace: "pre-line" }}
           >
             {
-              "Lorem ipsum dolor\n sit amet, consectetur\n adipiscing elit, sed do\n eiusmod"
+              "A fresh perspective\n from a lifelong\n Portlander"
             }
           </p>
           <div className="flex justify-end mt-16">
