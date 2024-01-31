@@ -40,6 +40,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p className="text-center text-secondary opacity-30 mb-4">
+        {appStrings.copyright}
+      </p>
     </footer>
   );
 };
