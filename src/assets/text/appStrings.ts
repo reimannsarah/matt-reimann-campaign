@@ -20,7 +20,7 @@ export const appStrings = {
     p1: "Future Commissioners will be building on the foundation put in place by this first elected body of Commissioners, a Mayor and a city Auditor.   This is a very exciting moment for the City of Portland and there is much to do.",
     p2: "Through the will of the voters we have moved to a new structure separating direct bureau oversight (the old model) to a true commission or legislative style of government.  The new Portland CiIty Commission will be the legislative body (similar to Congress) that sets city policy, the city budget, advocates for district residents, and more.",
     p3: "If elected, I will prioritize setting the cornerstone for a well functioning city government with a high level of service to its citizens and an appropriate cost structure.  In addition, I will be a key advocate for issues impacting District 4 as well as greater Portland.",
-    p4: " My key areas of focus will be:"
+    p4: " My key areas of focus will be:",
   },
   platform: [
     {
@@ -70,8 +70,16 @@ export const appStrings = {
         "Since the Commission offices are located in District 4, I would advocate that the Commission rotate its meeting location to each of the 4 districts throughout the year",
     },
   ],
+  about: {
+    title: "About",
+    p1: "I am a native Oregonian and grew up in rural Washington County (it’s not rural anymore) in the Western foothills of Forest Park.  In my youth, neighborhood friends and I would hike to Forest Park and camp where there are now houses.  In my high school summers I worked in downtown Portland, mostly in what is now the Pearl District.",
+    p2: "My mother was an elementary school teacher and later a High School counselor at Sunset High School, just minutes from our home.  My father was one of the first 100 employees at Tektronix, an early high-tech upstart.  With four kids to raise, they had their hands full.",
+    p3: "I ventured south to Willamette University for college where I continued my love of soccer and became involved in school politics.  I was Vice President of my fraternity and a Senator representing my Fraternity in the Student Body.  My senior year at Willamette I studied abroad in Munich and finished my studies in Economics.  I stayed for a while, took more classes and worked at the German Post Office.  I fell in love with Europe and the myriad cultures, food, and people.",
+    p4: "Returning to Oregon, and following in my father’s footsteps, I became one of the first 50 employees at Lattice Semiconductor.  The longing for more travel took me back to business school in New York City at Columbia University.  Among many opportunities, I chose a west coast corporation as my next chapter and to pursue my interest in international business.  Hewlett Packard was at the beginning of a massive growth cycle and changed the whole personal printing market.  I traveled back to Germany many times working with our partners in Europe.",
+    p5: "The Pearl District, where I worked in High School, has transformed from an industrial district of body and metal shops to the lovely high rise living that it is today.  Portland population has over 10% from 2010 to 2020, faster than LA, San Diego and San Francisco (King County grew 17+%).  That’s because this is a great city.",
+  },
   footer: {
     header: "Reimann for Portland\n District 4",
   },
-  copyright: `\u00A9 Sarah Reimann 2024`
+  copyright: `\u00A9 Sarah Reimann 2024`,
 };
