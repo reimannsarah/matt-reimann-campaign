@@ -5,7 +5,7 @@ import HomePlatform from "../sub/HomePlatform";
 
 const Home = () => {
   return (
-    <div className="mt-80">
+    <div className="md:mt-80">
         <Hero />
         <Photo />
         <Donations />
