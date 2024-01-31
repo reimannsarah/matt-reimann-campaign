@@ -5,7 +5,7 @@ import { appStrings } from "../../assets/text/appStrings";
 const Platform = () => {
   return (
     <div className="mb-96">
-      <h1 className="font-header mb-5 md:mb-0 text-6xl text-white text-center">Platform</h1>
+      <h1 className="font-header mb-5 md:mb-0 text-4xl md:text-6xl text-white text-center">Platform</h1>
       <div className="p-4 bg-white md:rounded-lg">
         {appStrings.platform.map((issue, index) => {
           return (
