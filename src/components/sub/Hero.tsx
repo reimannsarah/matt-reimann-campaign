@@ -1,9 +1,16 @@
 import { imageUrls } from "../../assets/imgs/imageUrls";
 import { appStrings } from "../../assets/text/appStrings";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const Hero = () => {
   return (
-    <div className="md:flex md:text-center md:items-center md:justify-center">
+    <motion.div 
+    variants={fadeIn(0.5)}
+    initial="hidden"
+    animate="visible"
+    className="md:flex md:text-center md:items-center md:justify-center"
+    >
       <div className="inline">
         <p
           className="font-subheader md:hidden text-white text-2xl ml-3 mini:ml-12 mini:text-4xl"
@@ -27,7 +34,7 @@ const Hero = () => {
         id="matt_img"
         className="mr-0 w-3/5 md:w-1/5 object-cover float-right"
       />
-    </div>
+    </motion.div>
   );
 };
 
