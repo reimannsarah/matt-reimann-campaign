@@ -1,37 +1,30 @@
-import Accordion from "../sub/Accordion";
-import { NavLink } from "react-router-dom";
-import { appStrings } from "../../assets/text/appStrings";
+import { appStrings } from "../../assets/text/appStrings"
 
 const Platform = () => {
   return (
-    <div className="mb-96">
-      <h1 className="font-header text-8xl text-white text-center">Platform</h1>
-      <div className="p-4 bg-white rounded-lg">
-        {appStrings.platform.map((issue, index) => {
+    <div className="mt-[350px] mx-36 bg-white p-14 rounded-lg">
+      <h1>Title</h1>
+      <p>{appStrings.platform_intro.p1}</p>
+      <p>{appStrings.platform_intro.p2}</p>
+      <p>{appStrings.platform_intro.p3}</p>
+      <div>
+        {appStrings.platform.map((item, index) => {
           return (
-            <div key={index}>
-              <Accordion
-                title={issue.title}
-                subtitle={issue.subtitle}
-                point1={issue.point1}
-                point2={issue.point2}
-                point3={issue.point3}
-                point4={issue.point4}
-                point5={issue.point5}
-              />
+            <div key={index} className="">
+              <h1>{item.title}</h1>
+              <ul>
+                <li>{item.point1}</li>
+                <li>{item.point2}</li>
+                <li>{item.point3}</li>
+                {item.point4 && <li>{item.point4}</li>}
+                {item.point5 && <li>{item.point5}</li>}
+              </ul>
             </div>
-          );
+          )
         })}
       </div>
-      <div className="text-right mx-5">
-        <NavLink to="/platform">
-          <button className="py-3 px-5 rounded-lg bg-white border-2 border-white text-primary font-body my-3 hover:text-white hover:bg-primary">
-            Read More
-          </button>
-        </NavLink>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Platform;
+export default Platform
