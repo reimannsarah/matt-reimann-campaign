@@ -1,6 +1,7 @@
 export const appStrings = {
   hero: {
     slogan: "Bringing business and vitality back to Portland",
+    slogan_lg: "Bringing business\n and vitality back\n to Portland",
     button_long: "Support the campaign",
     button_short: "Donate",
   },
