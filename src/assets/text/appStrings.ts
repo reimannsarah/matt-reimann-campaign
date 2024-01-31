@@ -13,6 +13,12 @@ export const appStrings = {
     button_copy: "Donate Now",
     learn_more: "Learn More",
   },
+  platform_intro: {
+    p1: "Future Commissioners will be building on the foundation put in place by this first elected body of Commissioners, a Mayor and a city Auditor.   This is a very exciting moment for the City of Portland and there is much to do.",
+    p2: "Through the will of the voters we have moved to a new structure separating direct bureau oversight (the old model) to a true commission or legislative style of government.  The new Portland CiIty Commission will be the legislative body (similar to Congress) that sets city policy, the city budget, advocates for district residents, and more.",
+    p3: "If elected, I will prioritize setting the cornerstone for a well functioning city government with a high level of service to its citizens and an appropriate cost structure.  In addition, I will be a key advocate for issues impacting District 4 as well as greater Portland.",
+    p4: " My key areas of focus will be:"
+  },
   platform: [
     {
       title: "Government Acountability",
