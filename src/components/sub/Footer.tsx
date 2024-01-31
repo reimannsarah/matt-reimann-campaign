@@ -29,14 +29,14 @@ const Footer = () => {
         </div>
         <div className="flex flex-row gap-10">
           <div className="flex flex-col font-body text-primary text-xl gap-5">
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/platform">Platform</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/about" className="hover:underline">About</NavLink>
+            <NavLink to="/platform" className="hover:underline">Platform</NavLink>
+            <NavLink to="/contact" className="hover:underline">Contact</NavLink>
           </div>
           <div className="flex flex-col font-body text-primary text-xl gap-5">
-            <NavLink to="/endorsements">Endorsements</NavLink>
-            <NavLink to="/privacy">Privacy</NavLink>
-            <NavLink to="/donate">Donate</NavLink>
+            <NavLink to="/endorsements" className="hover:underline">Endorsements</NavLink>
+            <NavLink to="/privacy" className="hover:underline">Privacy</NavLink>
+            <NavLink to="/donate" className="hover:underline">Donate</NavLink>
           </div>
         </div>
       </div>
