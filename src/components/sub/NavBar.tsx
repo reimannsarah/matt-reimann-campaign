@@ -4,7 +4,8 @@ const NavBar = () => {
   // const location = useLocation();
   return (
     <div className='relative'>
-      <div className='absolute top-44 right-0 flex flex-row gap-5 text-white font-body text-xl'>
+      <div className='absolute top-44 right-20 flex flex-row gap-5 text-white font-body text-xl'>
+        <div></div>
         <NavLink to="/home">
           <p>Home</p>
         </NavLink>
