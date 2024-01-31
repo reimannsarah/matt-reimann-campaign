@@ -4,9 +4,9 @@ import { imageUrls } from "../../assets/imgs/imageUrls";
 
 const Footer = () => {
   return (
-    <footer className="absolute top-[3000px] h-[300px] bg-white inset-x-0">
-      <div className="flex flex-row justify-between p-16">
-        <div className="text-right">
+    <footer className="mt-auto h-auto bg-white inset-x-0">
+      <div className="flex flex-col items-center gap-10 md:flex-row md:justify-between p-16">
+        <div className="text-center md:text-right">
           <h1
             className="font-header text-4xl text-primary"
             style={{ whiteSpace: "pre-line" }}
