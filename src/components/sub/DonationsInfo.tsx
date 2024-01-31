@@ -4,7 +4,7 @@ const DonationsInfo = () => {
 
   return (
     <div className="mb-16">
-      <div className="bg-white rounded-lg p-12">
+      <div className="bg-white md:rounded-lg p-12">
         <div className="text-primary flex flex-col gap-3">
           <h1 className="font-header text-3xl">
             {appStrings.donations.subheader1}
