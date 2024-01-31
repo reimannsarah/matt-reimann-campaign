@@ -3,10 +3,10 @@ import { appStrings } from "../../assets/text/appStrings";
 
 const Hero = () => {
   return (
-      <div className="flex flex-row justify-end float-right">
+      <div className="flex flex-row justify-center">
         <div className="flex flex-col mt-14">
           <p
-            className="font-subheader text-white text-6xl text-right"
+            className="font-subheader text-white text-3xl text-right"
             style={{ whiteSpace: "pre-line" }}
           >
             {
@@ -21,7 +21,7 @@ const Hero = () => {
           src={imageUrls.matt}
           alt=""
           id="hero-img"
-          className="w-2/5 float-right"
+          className="object-cover float-right"
         />
       </div>
   );
