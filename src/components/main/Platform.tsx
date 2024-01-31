@@ -1,9 +1,15 @@
 import { appStrings } from "../../assets/text/appStrings";
 import { imageUrls } from "../../assets/imgs/imageUrls";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const Platform = () => {
   return (
-    <div>
+    <motion.div
+      variants={fadeIn(0.5)}
+      initial="hidden"
+      animate="visible"
+    >
       <img src={imageUrls.mobile_skyline} className="md:hidden" alt="" />
       <div className="p-10 mb-24 md:mt-36 md:mx-36 bg-white md:p-14 md:rounded-lg">
         <h1 className="font-header text-primary text-4xl md:text-6xl mb-5">{appStrings.platform_intro.title}</h1>
@@ -37,7 +43,7 @@ const Platform = () => {
           })}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
