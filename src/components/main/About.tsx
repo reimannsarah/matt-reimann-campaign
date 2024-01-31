@@ -1,9 +1,15 @@
 import { appStrings } from "../../assets/text/appStrings";
 import { imageUrls } from "../../assets/imgs/imageUrls";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const About = () => {
   return (
-    <div>
+    <motion.div
+      variants={fadeIn(0.5)}
+      initial="hidden"
+      animate="visible"
+    >
       <img src={imageUrls.mobile_skyline} className="md:hidden" alt="" />
       <div className="bg-white p-8 mb-16 md:rounded-lg md:mx-36 md:mt-16">
         <div className="flex flex-col gap-4">
@@ -27,7 +33,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
