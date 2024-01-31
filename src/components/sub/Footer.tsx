@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center text-secondary opacity-30 mb-4">
+      <p className="text-center md:text-right md:mr-10 text-secondary opacity-30 mb-4">
         {appStrings.copyright}
       </p>
     </footer>
