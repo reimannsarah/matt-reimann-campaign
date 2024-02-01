@@ -78,6 +78,10 @@ export const appStrings = {
     p4: "Returning to Oregon, and following in my father’s footsteps, I became one of the first 50 employees at Lattice Semiconductor.  The longing for more travel took me back to business school in New York City at Columbia University.  Among many opportunities, I chose a west coast corporation as my next chapter and to pursue my interest in international business.  Hewlett Packard was at the beginning of a massive growth cycle and changed the whole personal printing market.  I traveled back to Germany many times working with our partners in Europe.",
     p5: "The Pearl District, where I worked in High School, has transformed from an industrial district of body and metal shops to the lovely high rise living that it is today.  Portland population has over 10% from 2010 to 2020, faster than LA, San Diego and San Francisco (King County grew 17+%).  That’s because this is a great city.",
   },
+  endorsements: {
+    title: "Endorsements",
+    header: ""
+  },
   footer: {
     header: "Reimann for Portland\n District 4",
   },
