@@ -14,8 +14,8 @@ const NavBar = () => {
       <div className="absolute right-20 flex flex-row gap-5 text-white font-body text-xl">
         <div></div>
         <NavLink
-          to="/home"
-          className={location.pathname === "/home" ? "underline" : ""}
+          to=""
+          className={location.pathname === "" ? "underline" : ""}
         >
           <p className="hover:underline">Home</p>
         </NavLink>
