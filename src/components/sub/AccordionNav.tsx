@@ -1,12 +1,17 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const AccordionNav = () => {
   const [accordionIsOpen, setAccordionIsOpen] = useState(false);
   return (
     <div onClick={() => setAccordionIsOpen(!accordionIsOpen)} className="py-2">
       <button>
-        <svg
+        <motion.svg
+          variants={fadeIn(0.5)}
+          initial="hidden"
+          animate="visible"
           className="hb"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 10 10"
@@ -57,7 +62,7 @@ const AccordionNav = () => {
               begin="reverse.begin"
             />
           </rect>
-        </svg>
+        </motion.svg>
       </button>
       <div
         className={`absolute z-10 grid inset-x-0 overflow-hidden transition-all duration-300 ease-in-out ${
