@@ -1,10 +1,20 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../utils/motion";
 
 const AccordionNav = () => {
   const [accordionIsOpen, setAccordionIsOpen] = useState(false);
+  const location = useLocation();
+  const reverseAnimationRef = useRef<SVGAnimateElement>(null);
+
+  useEffect(() => {
+    setAccordionIsOpen(false);
+    if (reverseAnimationRef.current) {
+      reverseAnimationRef.current.beginElement();
+    }
+  }, [location]);
+
   return (
     <div onClick={() => setAccordionIsOpen(!accordionIsOpen)} className="py-2">
       <button>
@@ -30,6 +40,7 @@ const AccordionNav = () => {
               begin="start.begin"
             />
             <animate
+              ref={reverseAnimationRef}
               dur="0.2s"
               attributeName="d"
               values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7"
