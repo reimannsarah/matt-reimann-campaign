@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Matt Reimann For Portland
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### By Sarah Reimann
 
-Currently, two official plugins are available:
+![photo of home page](https://srportfolio.blob.core.windows.net/portfolio2-images/mattreimann.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+Campaign website for a local politician.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Component Diagram
+![photo of component diagram](./src/assets/imgs/component-diagram.png)
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
+* _React_
+* _React Framer Motion_
+* _TypeScript_
+* _JSX_
+* _Node.js_
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Setup/Installation Instructions
+1. Clone this repo to your desktop
+2. Open your terminal (e.g. Terminal of Gitbash) and navigate to this project's directory, "Journo".
+3. Run ```npm install``` in the project's root directory to install necessary dependencies.
+4. Run ```npm start``` in the project's root directory to start the app
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Known Bugs
+* None
