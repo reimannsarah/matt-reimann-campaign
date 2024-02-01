@@ -11,7 +11,7 @@ const Hero = () => {
       animate="visible"
       className="md:flex md:text-center md:items-center md:justify-center"
     >
-      <div className="flex">
+      <div className="flex justify-center">
         <div className="inline">
           <p
             className="font-subheader w-full text-white text-2xl ml-7 pb-3 mini:ml-12 mini:text-4xl md:hidden"
@@ -41,14 +41,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* <div className="flex justify-end mt-8 md:mt-16">
-          <button className="bg-white rounded-lg text-primary text-sm py-2 px-3 md:py-3 md:px-5 font-body">
-            {appStrings.hero.button}
-          </button>
-        </div> */
-}
-{
-  /* </div> */
-}
