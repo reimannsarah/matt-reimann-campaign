@@ -18,8 +18,8 @@ export default {
         body: ["PT Sans Narroo", "sans-serif"],
       },
       colors: {
-        primary: '#102259',
-        secondary: '#1C2D62'
+        primary: '#073511',
+        secondary: '#1D4423'
       }
     },
   },
