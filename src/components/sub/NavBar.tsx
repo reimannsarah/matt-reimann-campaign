@@ -11,7 +11,7 @@ const NavBar = () => {
       animate="visible"
       className="relative"
     >
-      <div className="absolute right-20 flex flex-row gap-5 text-white font-body text-xl">
+      <div className="absolute right-20 flex flex-row gap-5 text-green font-body text-xl">
         <div></div>
         <NavLink
           to=""
