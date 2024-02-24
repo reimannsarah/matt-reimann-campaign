@@ -10,8 +10,8 @@ const Header = () => {
     className="relative"
     >
       <div className="text-center md:top-20 md:left-20 text-white flex flex-col gap-3">
-      <h1 className="font-header text-8xl">Matt Reimann</h1>
-      <p className="font-header text-4xl text-center">For Portland City Council District 4</p>
+      <h1 className="font-header text-8xl text-green">Matt Reimann</h1>
+      <p className="font-header text-4xl text-center text-green">For Portland City Council District 4</p>
       </div>
     </motion.div>
   )
