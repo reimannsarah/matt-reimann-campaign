@@ -11,7 +11,7 @@ const Hero = () => {
       animate="visible"
       className="md:flex md:text-center md:items-center md:justify-end mx-16 mb-16"
     >
-      <div className="flex flex-col md:items-center md:flex-row md:gap-10 ">
+      <div className="flex flex-col md:items-center md:flex-row md:justify-evenly ">
         <div className="flex flex-col">
         <img
           src={imageUrls.matt2}
