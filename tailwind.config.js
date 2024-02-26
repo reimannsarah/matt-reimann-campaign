@@ -18,9 +18,9 @@ export default {
         body: ["PT Sans Narroo", "sans-serif"],
       },
       colors: {
-        darkviolet: '#1B103B',
-        green: '#00DE9B',
-        indigo: '#6F00FF',
+        background: '#0C2229',
+        green: '#C0DE00',
+        indigo: '#2E3FFF',
         orange: '#FF5E00',
       }
     },
