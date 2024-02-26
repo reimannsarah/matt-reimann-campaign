@@ -7,7 +7,7 @@ export const appStrings = {
   },
   donations: {
     header: "Donations",
-    subheader1: "$20 donations matched 9 - 1",
+    subheader1: "Turn your $20 into $200",
     info1:
       "The City of Portland will match your first $20 with $180, turning your $20 into $200.",
     subheader2: "$50 donations eligible for tax credit",
