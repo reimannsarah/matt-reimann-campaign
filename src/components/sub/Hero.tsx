@@ -11,7 +11,7 @@ const Hero = () => {
       animate="visible"
       className="md:flex md:text-center md:items-center md:justify-end mx-16 mb-16"
     >
-      <div className="flex flex-col md:flex-row justify-evenly">
+      <div className="flex flex-col md:items-center md:flex-row md:gap-10 ">
         <div className="flex flex-col">
         <img
           src={imageUrls.matt2}
@@ -26,12 +26,12 @@ const Hero = () => {
             {appStrings.hero.slogan}
           </p>
           <p
-            className="hidden md:block font-subheader text-green ml-3 text-9xl text-right"
+            className="hidden md:block font-subheader text-green ml-3 text-6xl text-right"
             style={{ whiteSpace: "pre-line" }}
           >
             {appStrings.hero.slogan_lg}
           </p>
-          <button className="bg-indigo border-2 border-indigo mini:block mini:mt-16 md:w-2/5 rounded-lg md:ml-auto text-white py-3 px-5 font-body hover:bg-primary hover:text-white">
+          <button className="bg-indigo border-2 border-indigo mini:block mini:mt-16 md:w-3/5 rounded-lg md:ml-auto text-white py-3 px-5 font-body hover:bg-primary hover:text-white">
             {appStrings.hero.button_long}
           </button>
         </div>
@@ -39,7 +39,7 @@ const Hero = () => {
           src={imageUrls.matt2}
           alt="photo of Matt Reimann"
           id="matt_img"
-          className="hidden md:w-1/4 object-cover rounded-tl-3xl rounded-br-3xl shadow-2xl"
+          className="hidden md:block md:w-2/5 rounded-tl-3xl rounded-br-3xl shadow-2xl"
         />
       </div>
     </motion.div>
