@@ -2,7 +2,7 @@ import DonationsInfo from "../sub/DonationsInfo"
 
 const Donations = () => {
   return (
-    <div className="shadow-2xl w-screen">
+    <div className="md:shadow-2xl">
       <DonationsInfo />
     </div>
   )
