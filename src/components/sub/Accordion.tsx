@@ -18,7 +18,7 @@ const Accordion = (props: AccordionProps) => {
       <button className="flex justify-between items-center w-full">
         <h1 className="font-header text-2xl md:text-4xl text-primary py-3">{props.title}</h1>
         <svg
-          className="fill-primary shrink-0 ml-8"
+          className="fill-green shrink-0 ml-8"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"
