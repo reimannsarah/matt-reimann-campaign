@@ -26,12 +26,12 @@ const Hero = () => {
             {appStrings.hero.slogan}
           </p>
           <p
-            className="hidden md:block font-subheader text-green ml-3 text-6xl text-right"
+            className="hidden md:block font-subheader text-green ml-3 text-8xl text-right"
             style={{ whiteSpace: "pre-line" }}
           >
             {appStrings.hero.slogan_lg}
           </p>
-          <button className="bg-indigo border-2 border-indigo mini:block mini:mt-16 md:w-3/5 rounded-lg md:ml-auto text-white py-3 px-5 font-body hover:bg-primary hover:text-white">
+          <button className="bg-indigo border-2 border-indigo mini:block mini:mt-16 md:text-xl md:w-3/5 rounded-lg md:ml-auto text-white py-3 px-5 font-body hover:bg-green hover:text-primary">
             {appStrings.hero.button_long}
           </button>
         </div>
