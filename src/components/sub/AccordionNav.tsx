@@ -82,7 +82,7 @@ const AccordionNav = () => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden font-body text-primary text-xl bg-white flex flex-col text-center p-5 ">
+        <div className="overflow-hidden font-body text-primary text-xl bg-green flex flex-col text-center p-5 ">
           <NavLink to="/" className="py-3 px-5 border-b border-secondary">Home</NavLink>
           <NavLink to="/about" className="py-3 px-5 border-b border-secondary">About</NavLink>
           <NavLink to="/platform" className="py-3 px-5 border-b border-secondary">Platform</NavLink>
