@@ -16,7 +16,7 @@ const Accordion = (props: AccordionProps) => {
   return (
     <div onClick={() => setAccordionIsOpen(!accordionIsOpen)} className="py-2">
       <button className="flex justify-between items-center w-full">
-        <h1 className="font-header text-2xl md:text-4xl text-primary py-3">{props.title}</h1>
+        <h1 className="font-header text-2xl md:text-4xl text-green py-3">{props.title}</h1>
         <svg
           className="fill-green shrink-0 ml-8"
           width="16"
@@ -51,8 +51,8 @@ const Accordion = (props: AccordionProps) => {
         }`}
       >
         <div className="overflow-hidden">
-          <strong><p className="py-5 px-8 text-primary font-body md:text-xl">{props.subtitle}</p></strong>
-          <ul className="list-disc list-outside py-3 px-10 font-body text-secondary text-sm md:text-lg">
+          <strong><p className="py-5 px-8 text-green font-body md:text-xl">{props.subtitle}</p></strong>
+          <ul className="list-disc list-outside py-3 px-10 font-body text-green text-sm md:text-lg">
             <li className="pl-3">{props.point1}</li>
             <li className="pl-3">{props.point2}</li>
             <li className="pl-3">{props.point3}</li>
