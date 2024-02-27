@@ -1,23 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { appStrings } from "../../assets/text/appStrings";
-import { imageUrls } from "../../assets/imgs/imageUrls";
 
 const Footer = () => {
   return (
     <footer
       className="mt-auto h-auto w-full"
-      style={{
-        backgroundImage: `url(${imageUrls.skyline})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
     >
       <div>
         <div className="flex flex-col items-center gap-10 md:flex-row md:justify-between p-16 text-white">
           <div className="text-center md:text-right">
             <h1
-              className="font-header text-4xl text-primary"
+              className="font-header text-4xl text-green"
               style={{ whiteSpace: "pre-line" }}
             >
               {appStrings.footer.header}
@@ -87,32 +80,32 @@ const Footer = () => {
               </g>
             </svg>
           </div>
-          <div className="flex flex-row gap-10">
-            <div className="flex flex-col font-body text-primary text-xl gap-5">
-              <NavLink to="/about" className="hover:underline">
+          <div className="flex flex-row gap-10 text-green">
+            <div className="flex flex-col font-body text-green text-xl gap-5">
+              <NavLink to="/about" className="hover:text-white">
                 About
               </NavLink>
-              <NavLink to="/platform" className="hover:underline">
+              <NavLink to="/platform" className="hover:text-white">
                 Platform
               </NavLink>
-              <NavLink to="/contact" className="hover:underline">
+              <NavLink to="/contact" className="hover:text-white">
                 Contact
               </NavLink>
             </div>
-            <div className="flex flex-col font-body text-primary text-xl gap-5">
-              <NavLink to="/endorsements" className="hover:underline">
+            <div className="flex flex-col font-body text-green text-xl gap-5">
+              <NavLink to="/endorsements" className="hover:text-white">
                 Endorsements
               </NavLink>
-              <NavLink to="/privacy" className="hover:underline">
+              <NavLink to="/privacy" className="hover:text-white">
                 Privacy
               </NavLink>
-              <NavLink to="/donate" className="hover:underline">
+              <NavLink to="/donate" className="hover:text-white">
                 Donate
               </NavLink>
             </div>
           </div>
         </div>
-        <p className="text-center md:text-right md:mr-10 text-white opacity-20 mb-4">
+        <p className="text-center md:text-right md:mr-10 text-green opacity-20 mb-4">
           {appStrings.copyright}
         </p>
       </div>
