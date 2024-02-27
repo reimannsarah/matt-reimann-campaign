@@ -18,10 +18,14 @@ export default {
         body: ["PT Sans Narroo", "sans-serif"],
       },
       colors: {
-        background: "#0C2229",
-        green: "#C0DE00",
+        primary: "#0C2229",
+        secondary: "#132758",
+        green: "#CBE90B",
         indigo: "#2E3FFF",
         orange: "#FF5E00",
+      },
+      transitionProperty: {
+        'top': 'top',
       },
     },
   },
