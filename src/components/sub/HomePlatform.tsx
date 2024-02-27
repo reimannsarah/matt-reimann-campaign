@@ -4,9 +4,9 @@ import { appStrings } from "../../assets/text/appStrings";
 
 const Platform = () => {
   return (
-    <div className="mb-96 mini:mx-80">
-      <h1 className="font-header mb-5 md:mb-0 text-4xl md:text-8xl text-white text-center">Platform</h1>
-      <div className="p-4 bg-white md:rounded-lg">
+    <div className="md:mb-20">
+      <h1 className="font-header mb-5 md:mb-0 text-5xl md:text-green md:text-8xl text-white text-center">Platform</h1>
+      <div className="p-4 md:rounded-lg bg-indigo md:bg-transparent text-white md:text-green shadow-2xl">
         {appStrings.platform.map((issue, index) => {
           return (
             <div key={index}>
@@ -23,9 +23,9 @@ const Platform = () => {
           );
         })}
       </div>
-      <div className="text-right mx-5">
+      <div className="text-center md:text-right mx-5">
         <NavLink to="/platform">
-          <button className="py-3 px-5 rounded-lg bg-white border-2 border-white text-primary font-body my-3 hover:text-white hover:bg-primary">
+          <button className="py-3 px-5 rounded-lg bg-indigo md:bg-green text-white md:text-primary font-body my-3 hover:text-white hover:bg-indigo">
             Read More
           </button>
         </NavLink>

@@ -11,31 +11,30 @@ const NavBar = () => {
       animate="visible"
       className="relative"
     >
-      <div className="absolute right-20 flex flex-row gap-5 text-white font-body text-xl">
-        <div></div>
+      <div className="absolute right-20 flex flex-row gap-5 text-white md:text-green font-body text-xl">
         <NavLink
           to=""
-          className={location.pathname === "" ? "underline" : ""}
+          className={location.pathname === "" ? "text-white" : ""}
         >
-          <p className="hover:underline">Home</p>
+          <p className="hover:text-white">Home</p>
         </NavLink>
         <NavLink
           to="/about"
-          className={location.pathname === "/about" ? "underline" : ""}
+          className={location.pathname === "/about" ? "text-white" : ""}
         >
-          <p className="hover:underline">About</p>
+          <p className="hover:text-white">About</p>
         </NavLink>
         <NavLink
           to="/platform"
-          className={location.pathname === "/platform" ? "underline" : ""}
+          className={location.pathname === "/platform" ? "text-white" : ""}
         >
-          <p className="hover:underline">Platform</p>
+          <p className="hover:text-white">Platform</p>
         </NavLink>
         <NavLink
           to="/endorsements"
-          className={location.pathname === "/endorsements" ? "underline" : ""}
+          className={location.pathname === "/endorsements" ? "text-white" : ""}
         >
-          <p className="hover:underline">Endorsements</p>
+          <p className="hover:text-white">Endorsements</p>
         </NavLink>
       </div>
     </motion.div>
