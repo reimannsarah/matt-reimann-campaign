@@ -39,12 +39,12 @@ const Contact: React.FC = () => {
       initial="hidden"
       animate="visible"
       variants={fadeIn(0.5)}
-      className="bg-background md:my-56 md:mx-44 p-20 rounded-lg shadow-lg font-body"
+      className="md:mb-44 p-20 md:p-0 rounded-lg shadow-lg font-body md:bg-indigo md:py-20 rounded-tl-3xl rounded-br-3xl"
     >
       <div className="flex flex-col items-center">
         <div className="mx-5 mb-10 md:mb-0 md:mx-10">
           <motion.h1
-            className="text-5xl text-center font-body text-green md:text-6xl mb-6"
+            className="text-5xl text-center font-header text-green md:text-white md:text-8xl mb-6 md:mb-0"
             animate={{
               scale: [1, 1.2, 1],
             }}
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col gap-5 w-[250px] mini:w-[400px] lg:w-[500px]"
+              className="flex flex-col gap-5 w-[250px] mini:w-[400px] lg:w-[600px]"
             >
               <motion.input
                 variants={slideInFromTop(1.1)}
@@ -104,7 +104,7 @@ const Contact: React.FC = () => {
                 variants={slideInFromTop(0.5)}
                 initial="hidden"
                 animate="visible"
-                className="p-2 rounded-lg bg-green text-background text-xl w-3/5 mx-auto shadow-2xl font-subheader1 hover:bg-lightblue mt-10 cursor-pointer"
+                className="p-2 rounded-lg bg-green text-primary text-xl w-3/5 mx-auto shadow-2xl font-subheader1 hover:bg-lightblue mt-10 cursor-pointer"
                 type="submit"
                 value="Send"
                 id="submit"
