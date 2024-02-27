@@ -6,7 +6,7 @@ const DonationsInfo = () => {
     <div className="mb-16 p-10 md:p-0 text-center">
       <div className="text-green md:bg-indigo rounded-tl-3xl rounded-br-3xl md:px-56 md:py-20 md:text-white">
         
-        <h1 className="font-header text-white text-5xl md:text-8xl text-center mb-14">{appStrings.donations.header}</h1>
+        <h1 className="font-header text-green md:text-white text-5xl md:text-8xl text-center mb-14">{appStrings.donations.header}</h1>
         <div className="text-white flex flex-col gap-3">
           <h1 className="font-header text-2xl mini:text-3xl md:text-3xl">
             {appStrings.donations.subheader1}

@@ -6,7 +6,7 @@ const Platform = () => {
   return (
     <div className="md:mb-20">
       <h1 className="font-header mb-5 md:mb-0 text-5xl md:text-green md:text-8xl text-white text-center">Platform</h1>
-      <div className="p-4 md:rounded-lg bg-indigo md:bg-transparent text-white md:text-green shadow-2xl">
+      <div className="p-4 md:rounded-lg bg-indigo md:bg-transparent  shadow-2xl">
         {appStrings.platform.map((issue, index) => {
           return (
             <div key={index}>
