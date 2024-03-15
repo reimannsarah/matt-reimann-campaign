@@ -2,6 +2,7 @@ import Accordion from "./Accordion";
 import { NavLink } from "react-router-dom";
 import { appStrings } from "../../assets/text/appStrings";
 
+
 const Platform = () => {
   return (
     <div className="md:mb-20">
@@ -11,13 +12,13 @@ const Platform = () => {
           return (
             <div key={index}>
               <Accordion
-                title={issue.title}
-                subtitle={issue.subtitle}
-                point1={issue.point1}
-                point2={issue.point2}
-                point3={issue.point3}
-                point4={issue.point4}
-                point5={issue.point5}
+                title={issue.title ?? ''}
+                subtitle={issue.subtitle ?? ''}
+                subGroup1={issue.subGroup1}
+                subGroup2={issue.subGroup2}
+                point1={issue.point1 ?? ''}
+                point2={issue.point2 ?? ''}
+                point3={issue.point3 ?? ''}
               />
             </div>
           );
