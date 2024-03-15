@@ -31,13 +31,37 @@ const Platform = () => {
                 <h1 className="font-header text-primary text-2xl mb-4 md:text-4xl">
                   {item.title}
                 </h1>
-                <ul className="flex flex-col gap-4 text-secondary md:text-lg">
-                  <li>{item.point1}</li>
-                  <li>{item.point2}</li>
-                  <li>{item.point3}</li>
-                  {item.point4 && <li>{item.point4}</li>}
-                  {item.point5 && <li>{item.point5}</li>}
-                </ul>
+                {item.subGroup1 && (
+                  <>
+                    <h2 className="font-header text-primary text-lg mb-4 md:text-2xl mt-10">
+                      {item.subGroup1.title}
+                    </h2>
+                    <ul className="flex flex-col gap-4 text-secondary md:text-lg">
+                      <li>{item.subGroup1.point1}</li>
+                      <li>{item.subGroup1.point2}</li>
+                      <li>{item.subGroup1.point3}</li>
+                    </ul>
+                  </>
+                )}
+                {item.subGroup2 && (
+                  <>
+                    <h2 className="font-header text-primary text-lg mb-4 md:text-2xl mt-10">
+                      {item.subGroup2.title}
+                    </h2>
+                    <ul className="flex flex-col gap-4 text-secondary md:text-lg">
+                      <li>{item.subGroup2.point1}</li>
+                      <li>{item.subGroup2.point2}</li>
+                      <li>{item.subGroup2.point3}</li>
+                    </ul>
+                  </>
+                )}
+                {!item.subGroup1 && !item.subGroup2 && (
+                  <ul className="flex flex-col gap-4 text-secondary md:text-lg">
+                    <li>{item.point1}</li>
+                    <li>{item.point2}</li>
+                    <li>{item.point3}</li>
+                  </ul>
+                )}
               </div>
             );
           })}
