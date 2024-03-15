@@ -26,20 +26,18 @@ export const appStrings = {
     {
       title: "Government Acountability",
       subtitle:
-        "Establishing precedent for the City Commision - holding the city government accountable in areas of fiscal prudence and efficient delivery of services",
+        "Establishing precedence for the City Commission - holding the city government accountable in areas of fiscal prudence and efficient delivery of services",
       point1:
-        "Portland is a city of makers, artists, and entrepreneurs. We need to support and grow our local businesses and arts community.",
-      point2:
         "With 12 commissioners focusing on policy and city governance, we will see measurable improvement in how we manage and deliver services to the citizens of Portland.  I intend to make sure that happens.",
-      point3:
+      point2:
         "Establish precedence with Commision hearings to delve into important city issues - budget, emergency services, safety, streets and transportation, business support, and more..",
-      point4:
+      point3:
         "Create clear and understandable metrics to measure our progress and improve the management and curation of public assets and funds",
     },
     {
       title: "Houselessness",
       subtitle:
-        "This is not a problem unique to Portland.  This is an issue that is nationwide.  Through surveys, and interviews, and studies (such as the PSU PiT reports), we know that this community is largely made up of people suffering from mental health, drug addiction, partner/family violenceand beingjust plain down on their luck,  (and some combination of all three).  We can fix this compassionately with an aim to break the cycle.  So it should be addressed from all angles - local, state and federal",
+        "Houseless Community. - this is not a problem unique to Portland.  This is an issue that is nationwide.  Through surveys,interviews, and studies (such as the PSU PiT reports), we know that this community is largely made up of people suffering from mental health, drug addiction, partner/family violence being plain down on their luck, and some combination of all three.  We can fix this compassionately with an aim to break the cycle.  So it should be addressed from all angles - local, state and federal",
       point1:
         "I would advocate for a more coordinated and focused effort to help the houseless be housed, and get on a path to exiting the streets. I believe this is a crisis and this will take a huge focused effort across local, regional, and state agencies to solve",
       point2:
@@ -50,15 +48,20 @@ export const appStrings = {
     {
       title: "Culture and Commerce",
       subtitle: "Open the city for business!",
-      point1:
-        "A growing and vibrant city brings new jobs, diversity, arts/entertainment, and much more",
-      point2:
-        "I would advocate to structure our tax, fee, and zoning code so that it supports our current big employers and encourages new and thriving industries (think Green businesses, AI learning, software apps) while not compromising but enhancing current delivery of city services and goals",
-      point3:
-        "Growing and supporting our businesses (new and current) means higher revenue to the city and better services to its constituents",
-      point4: "City buildings and offices need to be more accessible",
-      point5:
-        "I would push for a commission-study of the best practices in other large cities and seek ways to improve our messaging and attract more home-grown and incoming businesses",
+      subGroup1: {
+        title: "Culture",
+        point1: "There is and should be a strong intersection between business and the Arts.  A vibrant culture and arts community supports the economy, attracts residents, visitors and investment.",
+        point2: "I support the regional effort “Our Creative Future” to create a plan for Arts and Culture throughout the region including “culture, creative economy, business, social justice”  and more.  The Arts Tax supports this.",
+        point3: "Music, arts, theater and a strong business community is a virtuous cycle of attracting and growing talented people to the city. "
+      },
+      subGroup2: {
+        title: "Commerce",
+        point1: "A growing and vibrant city brings new jobs, diversity, arts/entertainment, and much more.",
+        point2: "I would advocate to structure our tax, fees, and zoning code so that it supports our current big employers and encourages new and thriving industries (think Green businesses, AI learning, software apps) while not compromising but enhancing current delivery of city services and goals.",
+        point3: "Growing and supporting our businesses (new and current) means higher revenue to the city and better services to its constituents.",
+        point4: "City buildings and offices need to be more accessible.",
+        point5: "I would push for a commission-study of the best practices in other large cities and seek ways to improve our messaging and attract more home-grown and incoming businesses."
+      }
     },
     {
       title: "Community Outreach",
