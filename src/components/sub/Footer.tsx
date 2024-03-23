@@ -4,7 +4,7 @@ import { appStrings } from "../../assets/text/appStrings";
 const Footer = () => {
   return (
     <footer
-      className="mt-auto h-auto w-full"
+      className="mt-auto h-auto w-full footer"
     >
       <div>
         <div className="flex flex-col items-center gap-10 md:flex-row md:justify-between p-16 text-white">
