@@ -22,11 +22,6 @@ const Platform = () => {
             <p>{appStrings.platform_intro.p3}</p>
           </strong>
         </div>
-        {/* <div className="mt-10">
-          <h1 className="font-header text-primary text-2xl mb-4 md:text-4xl">
-            {appStrings.platform_intro.title}
-          </h1>
-        </div> */}
         <div>
           {appStrings.platform.map((item, index) => {
             return (
