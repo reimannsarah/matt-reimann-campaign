@@ -31,6 +31,12 @@ const About = () => {
           <p className="font-body text-secondary text-sm md:text-lg">
             {appStrings.about.p5}
           </p>
+          <p className="font-body text-secondary text-sm md:text-lg">
+            {appStrings.about.p6}
+          </p>
+          <p className="font-body text-secondary text-sm md:text-lg">
+            {appStrings.about.p7}
+          </p>
         </div>
       </div>
     </motion.div>
