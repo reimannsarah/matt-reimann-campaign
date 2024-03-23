@@ -37,7 +37,7 @@ export const appStrings = {
     {
       title: "Houselessness",
       subtitle:
-        "Houseless Community. - this is not a problem unique to Portland.  This is an issue that is nationwide.  Through surveys,interviews, and studies (such as the PSU PiT reports), we know that this community is largely made up of people suffering from mental health, drug addiction, partner/family violence being plain down on their luck, and some combination of all three.  We can fix this compassionately with an aim to break the cycle.  So it should be addressed from all angles - local, state and federal",
+        "This is not a problem unique to Portland.  This is an issue that is nationwide.  Through surveys,interviews, and studies (such as the PSU PiT reports), we know that this community is largely made up of people suffering from mental health, drug addiction, partner/family violence being plain down on their luck, and some combination of all three.  We can fix this compassionately with an aim to break the cycle.  So it should be addressed from all angles - local, state and federal",
       point1:
         "I would advocate for a more coordinated and focused effort to help the houseless be housed, and get on a path to exiting the streets. I believe this is a crisis and this will take a huge focused effort across local, regional, and state agencies to solve",
       point2:
@@ -50,27 +50,39 @@ export const appStrings = {
       subtitle: "Open the city for business!",
       subGroup1: {
         title: "Culture",
-        point1: "There is and should be a strong intersection between business and the Arts.  A vibrant culture and arts community supports the economy, attracts residents, visitors and investment.",
-        point2: "I support the regional effort “Our Creative Future” to create a plan for Arts and Culture throughout the region including “culture, creative economy, business, social justice”  and more.  The Arts Tax supports this.",
-        point3: "Music, arts, theater and a strong business community is a virtuous cycle of attracting and growing talented people to the city. "
+        point1:
+          "There is and should be a strong intersection between business and the Arts.  A vibrant culture and arts community supports the economy, attracts residents, visitors and investment.",
+        point2:
+          "I support the regional effort “Our Creative Future” to create a plan for Arts and Culture throughout the region including “culture, creative economy, business, social justice”  and more.  The Arts Tax supports this.",
+        point3:
+          "Music, arts, theater and a strong business community is a virtuous cycle of attracting and growing talented people to the city. ",
       },
       subGroup2: {
         title: "Commerce",
-        point1: "A growing and vibrant city brings new jobs, diversity, arts/entertainment, and much more.",
-        point2: "I would advocate to structure our tax, fees, and zoning code so that it supports our current big employers and encourages new and thriving industries (think Green businesses, AI learning, software apps) while not compromising but enhancing current delivery of city services and goals.",
-        point3: "Growing and supporting our businesses (new and current) means higher revenue to the city and better services to its constituents.",
+        point1:
+          "A growing and vibrant city brings new jobs, diversity, arts/entertainment, and much more.",
+        point2:
+          "I would advocate to structure our tax, fees, and zoning code so that it supports our current big employers and encourages new and thriving industries (think Green businesses, AI learning, software apps) while not compromising but enhancing current delivery of city services and goals.",
+        point3:
+          "Growing and supporting our businesses (new and current) means higher revenue to the city and better services to its constituents.",
         point4: "City buildings and offices need to be more accessible.",
-        point5: "I would push for a commission-study of the best practices in other large cities and seek ways to improve our messaging and attract more home-grown and incoming businesses."
-      }
+        point5:
+          "I would push for a commission-study of the best practices in other large cities and seek ways to improve our messaging and attract more home-grown and incoming businesses.",
+      },
     },
     {
       title: "Community Outreach",
       subtitle: `Improve our city's connection to its constituents.  With the new government structure each commissioner is elected by a district connecting them to a geographic area of Portland`,
-      point1: "Regular outreach with neighborhood associations",
+      point1:
+        "I would represent the District from Linnton to East Moreland with regular outreach to neighborhood associations and other organizations.",
       point2:
         "Address local issues that impact each community as well as individuals",
       point3:
         "Since the Commission offices are located in District 4, I would advocate that the Commission rotate its meeting location to each of the 4 districts throughout the year",
+      point4:
+        "Buttress the Portland Street Response Program to continue relying less on the Portland Police Bureau to respond to no-crime, non-emergency calls.",
+      point5:
+        "Advocate for the creation of an  “Extreme Climate” office to address both the Winter and Summer months.",
     },
   ],
   about: {
@@ -81,16 +93,15 @@ export const appStrings = {
     p4: "Returning to Oregon, I worked in the Silicon Forest and for the City of Portland, before going to business school in New York City at Columbia University.  Among many opportunities, I chose a west coast corporation as my next chapter and to pursue my interest in international business.  Hewlett Packard was at the beginning of a massive growth cycle and changed the whole personal printing market.  I became an executive in the mid 2000’s and worked in the Laserjet business.",
     p5: "From HP I started a small business with a partner in food services.  I also co-founded a non-profit (LEAP Adventures)  that specializes in Wilderness Therapy addressing groups of people who have suffered from trauma.",
     p6: "The Portland population has grown over 10% from 2010 to 2020, faster than LA, San Diego and San Francisco (King County grew 17+%).  That’s because this is a great city.  Since then, we have shrunk in population.  I believe we can become a thriving business and culture community again.",
-    p7: "I hope to be a part of a very pivotal moment for the city of Portland and its new government structure.  It is this inaugural class of City Councillors that will set the precedent, especially as it relates to the relationship between the City Council and the City Government run by the Mayor.  This is a very exciting time."
+    p7: "I hope to be a part of a very pivotal moment for the city of Portland and its new government structure.  It is this inaugural class of City Councillors that will set the precedent, especially as it relates to the relationship between the City Council and the City Government run by the Mayor.  This is a very exciting time.",
   },
   contact: {
     header: "Contact",
     subheader: "Get in touch with Matt Reimann",
-
   },
   endorsements: {
     title: "Endorsements",
-    header: ""
+    header: "",
   },
   footer: {
     header: "Reimann for Portland\n District 4",
